@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="12731" started-at="2020-04-11T19:15:42 IST" finished-at="2020-04-11T19:15:55 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="12731" started-at="2020-04-11T19:15:42 IST" finished-at="2020-04-11T19:15:55 IST">
+      <class name="regressionscripts.ValidLogin">
+        <test-method status="PASS" signature="openAppn(java.lang.String)[pri:0, instance:regressionscripts.ValidLogin@335eadca]" name="openAppn" is-config="true" duration-ms="10312" started-at="2020-04-11T19:15:42 IST" finished-at="2020-04-11T19:15:52 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openAppn -->
+        <test-method status="PASS" signature="validlogin()[pri:0, instance:regressionscripts.ValidLogin@335eadca]" name="validlogin" duration-ms="1816" started-at="2020-04-11T19:15:52 IST" finished-at="2020-04-11T19:15:54 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validlogin -->
+        <test-method status="PASS" signature="closeAppn(org.testng.ITestResult)[pri:0, instance:regressionscripts.ValidLogin@335eadca]" name="closeAppn" is-config="true" duration-ms="553" started-at="2020-04-11T19:15:54 IST" finished-at="2020-04-11T19:15:55 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=validlogin status=SUCCESS method=ValidLogin.validlogin()[pri:0, instance:regressionscripts.ValidLogin@335eadca] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeAppn -->
+      </class> <!-- regressionscripts.ValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
