@@ -18,6 +18,7 @@ public void InvalidLogin()
 	    	lp.setusername(username);
 			lp.setpassword(password);
 			lp.clicklogin();
+			System.out.println("test");
 	
 }
 }
